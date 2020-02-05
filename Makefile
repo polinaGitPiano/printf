@@ -14,7 +14,11 @@ NAME = libftprintf.a
 FLAGS = -Wall -Wextra -Werror
 SRCDIR = src/
 
-SRC =  ft_format_str.c\
+SRC =   ft_format_str.c \
+        ft_costil.c \
+        ft_printf.c \
+        main.c \
+        
 
 
 OBJDIR = obj/
