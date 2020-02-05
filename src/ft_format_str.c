@@ -1,24 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   ft_format_str.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eidaho <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/24 11:44:05 by eidaho            #+#    #+#             */
-/*   Updated: 2020/01/24 11:44:09 by eidaho           ###   ########.fr       */
+/*   Created: 2020/02/05 10:18:34 by eidaho            #+#    #+#             */
+/*   Updated: 2020/02/05 10:18:41 by eidaho           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-int			ft_printf(const char *format, ...) {
-    int per;
-    va_list arg;
-    
-    per = 0;
-    va_start(arg, format);
-    per = ft_score_arg((char *)format, arg);
-    va_end(arg);
-    return (per);
+int     ft_format_str(char *str, va_list arg)
+{
+    int i;
+
+    i = 0;
+    while (str[i])
+    {
+        
+    }
 }
+

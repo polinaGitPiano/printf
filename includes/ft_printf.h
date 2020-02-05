@@ -18,6 +18,9 @@
 # include <math.h>
 # include "../libft/libft.h"
 
-int			ft_printf(const char *format, ...);
+
+int		ft_printf(const char *format, ...);
+int     ft_format_str(char *str, va_list arg)
+
 
 #endif 
