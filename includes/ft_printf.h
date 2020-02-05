@@ -20,7 +20,9 @@
 
 
 int		ft_printf(const char *format, ...);
-int     ft_format_str(char *str, va_list arg)
+int     ft_score_arg(char *str, va_list arg);
+int     specificator(int i, char *str);
+int     help_specificator(char c);
 
 
 #endif 

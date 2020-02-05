@@ -12,6 +12,7 @@
 
 #include "../includes/ft_printf.h"
 
+// просматриваем все входящие параметры и передаем их в функцию распределения
 int			ft_printf(const char *format, ...) {
     int per;
     va_list arg;

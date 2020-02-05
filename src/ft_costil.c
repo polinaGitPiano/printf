@@ -12,6 +12,7 @@
 
 #include "../includes/ft_printf.h"
 
+// проверяем строку, которая попадает в функцию specificator на наличие спецификаторов
 int     help_specificator(char c)
 {
     char    spec[11];
