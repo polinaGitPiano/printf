@@ -18,6 +18,11 @@
 # include <math.h>
 # include "../libft/libft.h"
 
+typedef struct  s_format
+{
+    
+}               t_format
+
 
 int		ft_printf(const char *format, ...);
 int     ft_score_arg(char *str, va_list arg);
