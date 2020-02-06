@@ -20,7 +20,14 @@
 
 typedef struct  s_format
 {
-    
+    int     padding;
+    int     sign;
+    int     space;
+    int     width;
+    int     specificator;
+    int     modificator;
+    int     left;
+    int     precision;
 }               t_format
 
 
