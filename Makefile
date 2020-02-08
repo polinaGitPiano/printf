@@ -14,12 +14,22 @@ NAME = libftprintf.a
 FLAGS = -Wall -Wextra -Werror
 SRCDIR = src/
 
-SRC =   ft_format_str.c \
-        ft_costil.c \
-        ft_printf.c \
-        main.c \
-        
-
+SRC = 	ft_bigint_operations.c \
+		ft_bigint.c \
+		ft_buff_manage.c \
+		ft_handle.c \
+		ft_parse_nums.c \
+		ft_print_cs.c \
+		ft_print_diuoxb.c \
+		ft_print_e.c \
+		ft_print_f.c \
+		ft_print_options.c \
+		ft_print_prk.c \
+		ft_printf.c \
+		ft_set_options.c \
+		ft_utils_num.c \
+		ft_utils_str.c \
+		ft_color.c \
 
 OBJDIR = obj/
 
