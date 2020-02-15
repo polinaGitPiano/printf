@@ -58,7 +58,7 @@ int		ft_printf(const char *form, ...)
 	va_list		ap;
 	t_options	f;
 	t_buff		buf;
-
+//создаем структуру va_list, которая считает кол-во полученных аргументов 
 	va_start(ap, form);
 	ft_init_buff(&buf, 1);
 	while (*form)

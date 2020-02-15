@@ -14,9 +14,14 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
+//write
 # include <unistd.h>
 # include <wchar.h>
+//добавляем библиотеку для проверки вывода(original printf)
+# include <stdio.h>
+
 # include <inttypes.h>
+//malloc
 # include <stdlib.h>
 
 # define MAX_LEN 512
